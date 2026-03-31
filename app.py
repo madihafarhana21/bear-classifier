@@ -63,7 +63,7 @@ intf = gr.Interface(
     fn=classify_bear,
     inputs=image,
     outputs=label,
-    examples=['teddy.jpg', 'black1.jpg', 'grizzly1.jpg'],
+    examples=['teddy.jpg', 'black1.jpg', 'grizzly1.jpg', 'black.jpg', 'teddy1.jpg'],
     cache_examples=False
 )
 
