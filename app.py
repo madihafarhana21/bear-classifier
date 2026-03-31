@@ -105,4 +105,4 @@ intf = gr.Interface(
     examples=examples,
     cache_examples=False
 )
-intf.launch(inline=False)
+intf.launch(inline=False, share=True)
