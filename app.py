@@ -39,7 +39,7 @@ def classify_bear(img):
     pred, idx, probs = learn.predict(img)
     return dict(zip(categories, map(float, probs)))
 
-image = gr.Image(height=196, width=196)
+image = gr.Image(height=196, width=196, type="pil")
 label = gr.Label()
 examples = ['teddy.jpg', 'black1.jpg', 'grizzly1.jpg', 'black.jpg', 'teddy1.jpg']
 
