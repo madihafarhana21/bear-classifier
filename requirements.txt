@@ -1,3 +1,3 @@
-fastai
-gradio
-IPython
+fastai=2.8.7
+gradio=6.10.0
+IPython=9.10.1
