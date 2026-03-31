@@ -49,4 +49,4 @@ intf = gr.Interface(
     examples=examples,
     cache_examples=False   # Fix 2: disable caching that triggers the bug at startup
 )
-intf.launch(inline=False)
+intf.launch(inline=False, share=True)
