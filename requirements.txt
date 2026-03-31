@@ -1,1 +1,2 @@
-fastai-2.8.7
+fastai
+gradio
