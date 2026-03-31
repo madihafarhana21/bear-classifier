@@ -1,13 +1,4 @@
-# import gradio as gr
-
-# def greet(name):
-#     return "Hello " + name + "!!"
-
-# demo = gr.Interface(fn=greet, inputs="text", outputs="text")
-# demo.launch()
-
 __all__ = ['learn', 'classify_bear', 'categories', 'image', 'label', 'examples', 'intf']
-
 
 from fastai.vision.all import *
 import gradio as gr
