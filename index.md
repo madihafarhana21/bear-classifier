@@ -2,4 +2,4 @@
 title: Bear Classifier
 ---
 
-- [Single file](bear-classifier.html)
+- [Classify 🐻](bear-classifier.html)
